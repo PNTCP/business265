@@ -7,7 +7,7 @@ $dbname = 'business';
 
 try {
     $conn = new PDO(
-        "mysql:host=$serverName;dbname=business;charset=UTF8",
+        "mysql:host=$serverName;dbname=$dbname;charset=UTF8",
          $userName,
          $userPassword 
     );
