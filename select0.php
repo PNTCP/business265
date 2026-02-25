@@ -7,4 +7,7 @@ $stmt->execute();
 
 
 $result = $stmt->fetchAll();
-print_r($result);
+// print_r($result);
+?>
+
+

@@ -20,7 +20,8 @@ $stmt = $conn->prepare($sql);
 $stmt->execute();
 echo '<br/>';
 $result = $stmt->fetchAll();
-//print_r($result);
+// print_r($result);
+
 
 
 foreach ($result as $r) {
