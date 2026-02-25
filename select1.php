@@ -14,7 +14,7 @@ require 'connect.php';
 
 
 // ทดสอบเรียกดูข้อมูลจากฐานข้อมูล แบบ Loop
-$sql = 'SELECT c.CustomerID, c.Name, c.OutstandingDebt, co.CountryName
+$sql = 'SELECT *
 FROM customer c INNER JOIN country co ON c.CountryCode = co.CountryCode ';
 $stmt = $conn->prepare($sql);
 $stmt->execute();
