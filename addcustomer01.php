@@ -66,7 +66,9 @@ endif;
         <input type="number" placeholder="OutsStanding Debt" name="OutstandingDebt">
         <br><br>
         <input type="submit">
+
     </form>
 </body>
+
 
 </html>
